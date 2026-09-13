@@ -1,13 +1,4 @@
-<div align="center">
 
-# 𝓙𝓸𝓮
-
-### `developer · researcher · experimenter`
-
-*Exploring the grains and mechanisms beneath the things we build.*
-
-</div>
-<p align="center">
   <img src="./assets/header.png" width="100%">
 </p>
 ---

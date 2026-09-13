@@ -8,9 +8,8 @@
 
 </div>
 <p align="center">
-  <img src="./assets/header.svg" width="100%">
+  <img src="./assets/header.png" width="100%">
 </p>
-<div align="center">
 ---
 
 ## `01` — THE AUTHOR

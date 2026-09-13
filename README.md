@@ -7,7 +7,10 @@
 *Exploring the grains and mechanisms beneath the things we build.*
 
 </div>
-
+<p align="center">
+  <img src="./assets/header.svg" width="100%">
+</p>
+<div align="center">
 ---
 
 ## `01` — THE AUTHOR

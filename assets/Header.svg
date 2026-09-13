@@ -1,0 +1,217 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Parchment background -->
+  <rect width="1200" height="420" fill="#D8B982"/>
+
+  <!-- Aged paper layers -->
+  <rect x="18" y="18" width="1164" height="384"
+        rx="8" fill="#E4C99A"
+        stroke="#5A3824" stroke-width="3"/>
+
+  <rect x="30" y="30" width="1140" height="360"
+        rx="5" fill="none"
+        stroke="#8B5E3C" stroke-width="1"/>
+
+  <!-- Subtle paper marks -->
+  <g fill="#7A4E32" opacity="0.08">
+    <circle cx="170" cy="90" r="45"/>
+    <circle cx="1010" cy="310" r="55"/>
+    <circle cx="600" cy="70" r="35"/>
+    <circle cx="420" cy="350" r="50"/>
+  </g>
+
+  <!-- Decorative corner marks -->
+  <g fill="none" stroke="#5A3824" stroke-width="2">
+    <path d="M30 65 L30 30 L65 30"/>
+    <path d="M1135 30 L1170 30 L1170 65"/>
+    <path d="M30 355 L30 390 L65 390"/>
+    <path d="M1135 390 L1170 390 L1170 355"/>
+  </g>
+
+  <!-- Compass rose -->
+  <g transform="translate(105 105)" stroke="#5A3824" fill="none">
+    <circle r="48" stroke-width="2"/>
+    <circle r="40" stroke-width="1"/>
+
+    <path d="M0 -62 L8 0 L0 62 L-8 0 Z"
+          fill="#6B432C"/>
+    <path d="M-62 0 L0 8 L62 0 L0 -8 Z"
+          fill="#8B5E3C"/>
+
+    <path d="M-35 -35 L0 0 L35 35"/>
+    <path d="M35 -35 L0 0 L-35 35"/>
+  </g>
+
+  <g font-family="Georgia, serif"
+     font-size="14"
+     fill="#5A3824"
+     text-anchor="middle">
+    <text x="105" y="35">N</text>
+    <text x="105" y="185">S</text>
+    <text x="35" y="110">W</text>
+    <text x="175" y="110">E</text>
+  </g>
+
+  <!-- Small map island -->
+  <g transform="translate(980 90)"
+     fill="none"
+     stroke="#6B432C"
+     stroke-width="2"
+     opacity="0.8">
+
+    <path d="M-55 25
+             C-40 0 -20 5 -10 -15
+             C10 -30 28 -12 45 -20
+             C60 -5 48 15 58 30
+             C35 42 15 35 0 50
+             C-20 45 -40 50 -55 25 Z"/>
+
+    <path d="M-20 5 C-5 0 10 2 25 -8"/>
+    <path d="M-30 22 C-5 15 15 18 35 8"/>
+  </g>
+
+  <!-- Dotted exploration route -->
+  <path d="M165 165
+           C250 205 300 120 390 165
+           C455 195 485 230 550 200"
+        fill="none"
+        stroke="#6B432C"
+        stroke-width="2"
+        stroke-dasharray="7 8"
+        opacity="0.65"/>
+
+  <!-- Route marker -->
+  <circle cx="550" cy="200" r="6"
+          fill="#6B432C"/>
+
+  <!-- Left label -->
+  <g font-family="Georgia, serif"
+     fill="#5A3824">
+    <text x="55" y="225"
+          font-size="13"
+          letter-spacing="2">
+      EXPLORE
+    </text>
+
+    <text x="55" y="247"
+          font-size="13"
+          letter-spacing="2">
+      LEARN
+    </text>
+
+    <text x="55" y="269"
+          font-size="13"
+          letter-spacing="2">
+      BUILD
+    </text>
+
+    <text x="55" y="291"
+          font-size="13"
+          letter-spacing="2">
+      REPEAT
+    </text>
+  </g>
+
+  <!-- Main name -->
+  <text x="600"
+        y="165"
+        text-anchor="middle"
+        font-family="'Mona Lisa', 'URW Chancery L', 'Brush Script MT', cursive"
+        font-size="105"
+        font-weight="600"
+        fill="#4A2C1C">
+    Joe
+  </text>
+
+  <!-- Name underline -->
+  <line x1="430" y1="185"
+        x2="770" y2="185"
+        stroke="#6B432C"
+        stroke-width="2"/>
+
+  <!-- Identity -->
+  <text x="600"
+        y="225"
+        text-anchor="middle"
+        font-family="Georgia, serif"
+        font-size="21"
+        letter-spacing="4"
+        fill="#4A2C1C">
+    DEVELOPER · RESEARCHER · EXPERIMENTER
+  </text>
+
+  <!-- Quote -->
+  <text x="600"
+        y="270"
+        text-anchor="middle"
+        font-family="Georgia, serif"
+        font-size="17"
+        font-style="italic"
+        fill="#5A3824">
+    Exploring the grains and mechanisms
+  </text>
+
+  <text x="600"
+        y="296"
+        text-anchor="middle"
+        font-family="Georgia, serif"
+        font-size="17"
+        font-style="italic"
+        fill="#5A3824">
+    beneath the things we build.
+  </text>
+
+  <!-- Small divider -->
+  <g stroke="#6B432C" stroke-width="1">
+    <line x1="455" y1="320" x2="555" y2="320"/>
+    <line x1="645" y1="320" x2="745" y2="320"/>
+  </g>
+
+  <path d="M600 311 L609 320 L600 329 L591 320 Z"
+        fill="#6B432C"/>
+
+  <!-- Right-side notes -->
+  <g font-family="Georgia, serif"
+     fill="#5A3824">
+
+    <text x="1035" y="205"
+          font-size="13"
+          letter-spacing="2">
+      UNKNOWN
+    </text>
+
+    <text x="1035" y="227"
+          font-size="13"
+          letter-spacing="2">
+      TERRITORY
+    </text>
+
+    <text x="1035" y="249"
+          font-size="13"
+          letter-spacing="2">
+      AHEAD
+    </text>
+
+  </g>
+
+  <!-- Bottom motto -->
+  <text x="55"
+        y="365"
+        font-family="Georgia, serif"
+        font-size="14"
+        letter-spacing="2"
+        fill="#5A3824">
+    CURIOSITY BUILDS BETTER THINGS.
+  </text>
+
+  <text x="1145"
+        y="365"
+        text-anchor="end"
+        font-family="Georgia, serif"
+        font-size="14"
+        letter-spacing="2"
+        fill="#5A3824">
+    STILL LEARNING...
+  </text>
+
+</svg>
